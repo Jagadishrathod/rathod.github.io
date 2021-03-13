@@ -354,8 +354,46 @@ section{
     transform: translateX(-50%);
 }
 
+.education .education-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.education .education-content .clearfix{
+    background: crimson;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    height: 610px;
+}
 
+.education .education-content .row-section{
+    margin: 0 15px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: rgb(250, 250, 250);
+    border-radius: 8px;
+    padding: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.education .education-content .row-section h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.education .education-content .row-section p{
+    font-family: 'Ubuntu', sans-serif;
+    /* text-align: left; */
+}
+
+.education .education-content .row-section span{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    /* text-align: left; */
+}
   /* Contact Section Styling */
 
 .contact {

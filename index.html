@@ -4,23 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/all.min.css">
         <script src="https://kit.fontawesome.com/a076d5399.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>          
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoint/4.0.1/jquery.waypoints.min.js"></script>      
     </head>
     <body>
         <nav class="navbar">
             <div class="max-width">
                 <div class="logo"><a href="#">Rathod<span> Portofolio</span></a></div>
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="menu-btn">
                     <i class="fas fa-bars"></i>
@@ -30,9 +31,10 @@
         <section class="home" id="home">
             <div class="max-width">
                 <div class="home-content">
-                    <div class="text-1">Hi, This is</div>
-                    <div class="text-2">Rathod Jagadish</div>
-                    <a href="#">Hire me</a>
+                    <div class="text-1">Hello</div>
+                    <div class="text-2">I'm Jagadish</div>
+                    <div class="text-3">Web Designer and Developer</div>
+                    <!-- <a href="#">Hire me</a> -->
                 </div>
             </div>
         </section>
@@ -45,13 +47,13 @@
                       <img src="Images/profile.jpg" alt="profile">
                   </div>
                   <div class="column right">
-                      <div class="text">Hi This jagadish and I'm a <span>Developer</span></div>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
-                          text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-                          desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                          <a href="#">Download CV</a>
+                      <div class="text">Hi, This Jagadish and I'm a <span>Developer</span></div>
+                      <p>I am the 4th year B.tech student pursuing Computer Science and Engineering at Indian
+                          Institute of Information Technology Design and Manufacturing Kancheepuram. 
+                          I'm Frontend Developer and travel enthusiast. I like learning new technologies like 
+                          Machine Learning and Opencv.
+                      </p>
+                          <a href="Resume/Resume.pdf">Resume <i class="fas fa-download"></i></a>
                   </div>
                 </div>
             </div>
@@ -68,14 +70,34 @@
                             </div>
                             <div class="flip-card-back">
                                 <h2 class="subtitle">programming Languages</h2>
-                                <li>
-                                    <ol>
-                                        <h3>C lang</h3><span class="bar"><span class="clang"></span></span>
-                                        <h3>C++ lang</h3><span class="bar"><span class="cplus"></span></span>
-                                        <h3>Python</h3><span class="bar"><span class="python"></span></span>
-                                        <h3>Java</h3><span class="bar"><span class="java"></span></span>
-                                    </ol>
-                                </li>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>C Language</span>
+                                        <span>60%</span>
+                                    </div>
+                                    <div class="line cprog"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>C++ Language</span>
+                                        <span>50%</span>
+                                    </div>
+                                    <div class="line cprog"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Python</span>
+                                        <span>50%</span>
+                                    </div>
+                                    <div class="line python"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Java</span>
+                                        <span>20%</span>
+                                    </div>
+                                    <div class="line java"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,13 +108,27 @@
                             </div>
                             <div class="flip-card-back">
                                 <h2 class="subtitle">Web languages</h2>
-                                <li>
-                                    <ol>
-                                        <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
-                                        <h3>CSS</h3><span class="bar"><span class="css"></span></span>
-                                        <h3>JavaScript</h3><span class="bar"><span class="javascript"></span></span>
-                                    </ol>
-                                </li>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>HTML5</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="line html"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>CSS3</span>
+                                        <span>60%</span>
+                                    </div>
+                                    <div class="line css"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>ReactJS</span>
+                                        <span>50%</span>
+                                    </div>
+                                    <div class="line react"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,15 +138,35 @@
                                 <img src="Images/deeplearning.jpg">
                             </div>
                             <div class="flip-card-back">
-                                <h2 class="subtitle">Techincal Skills</h2>
-                                <li>
-                                    <ol>
-                                        <h3>Machine Learnng</h3><span class="bar"><span class="ml"></span></span>
-                                        <h3>Opencv</h3><span class="bar"><span class="opencv"></span></span>
-                                        <h3>Verilog</h3><span class="bar"><span class="verilog"></span></span>
-                                        <h3>Adobe XD</h3><span class="bar"><span class="adobe"></span></span>
-                                    </ol>
-                                </li>
+                                <h2>Technologies known</h2>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Machine Learning</span>
+                                        <span>45%</span>
+                                    </div>
+                                    <div class="line ml"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>OpenCV</span>
+                                        <span>55%</span>
+                                    </div>
+                                    <div class="line opencv"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Verilog</span>
+                                        <span>30%</span>
+                                    </div>
+                                    <div class="line verilog"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Adobe XD</span>
+                                        <span>55%</span>
+                                    </div>
+                                    <div class="line adobe"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -155,39 +211,79 @@
         <!-- Contact section -->
         <section class="contact" id="contact">
             <div class="max-width">
-                <div class="title">Contact me</div>
+                <h2 class="title">contact me</h2>
                 <div class="contact-content">
                     <div class="column left">
                         <div class="text">Get in Touch</div>
-                        <p>lorem-ipsum includes a command line interface (CLI) program 
-                        for generating passages of lorem ipsum text directly from your terminal.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, atque. 
+                            Facere modi accusamus dolorum ab earum totam maxime optio quo. 
+                            Quam reprehenderit laboriosam, dolorem quisquam rerum tenetur dolor vel facilis.
+                        </p>
                         <div class="icons">
                             <div class="row">
-                                <i class="fas fa-user"></i>
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
                                 <div class="info">
-                                    <div class="head">Name</div>
-                                    <div class="sub-title">Rathod Jagadish</div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div class="info">
-                                    <div class="head">Address</div>
-                                    <div class="sub-title">Zahirabad, Sangareddy, Telangana - 502220</div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <i class="fas fa-envelope"></i>
-                                <div class="info">
-                                    <div class="head">Email</div>
+                                    <div class="head">Email:</div>
                                     <div class="sub-title">thejagadishrathod@gmail.com</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <div class="info">
+                                    <div class="head">Address:</div>
+                                    <div class="sub-title">Shanthi nagar, Zahirabad, Sangareddy, Telangana - 502220</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                                <div class="info">
+                                    <div class="head">Phone:</div>
+                                    <div class="sub-title">+91 8297669741/9182224270</div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="column right">
+                        <div class="text">Message me</div>
+                        <form accept="#">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="field email">
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Subject" required>
+                            </div>
+                            <div class="field textarea">
+                                <textarea cols="30" rows="10" placeholder="Type your message" required></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Send message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- footer section start -->
+        <footer>
+            <div class="footer-content">
+                <p>You can connect with me in below social media platform</p>
+                <ul class="socials">
+                    <li><a href="https://www.instagram.com/thejagadishrathod/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/JagadishRatho20"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/Jagadishrathod"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/rathodjagadish/"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2021 protofolio. designed by <span>Jagadish Rathod</span></p>
+            </div>
+        </footer>
         <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/2cdeb7e939.js"></script>
     </body>
 </html>

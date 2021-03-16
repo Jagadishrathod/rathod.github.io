@@ -77,8 +77,7 @@
 
 /* home section */
 .home{
-    display: flex;
-    background: url(Images/banner3.jpg) no-repeat center;
+    display: fle    background: rgb(15, 13, 13);
     height: 100vh;
     color: #fff;
     min-height: 500px;

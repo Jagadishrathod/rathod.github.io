@@ -77,7 +77,8 @@
 
 /* home section */
 .home{
-    display: fle    background: rgb(15, 13, 13);
+    display: flex;
+    background: rgb(15, 13, 13);
     height: 100vh;
     color: #fff;
     min-height: 500px;
